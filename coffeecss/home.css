@@ -2,6 +2,11 @@
     box-sizing:border-box;
     margin:0px;
     padding:0px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+     
  }
  .grid_container1{
     display:grid;
@@ -28,6 +33,11 @@
     height:140px;
     width:400px;
  }
+ li{ 
+    color:white;
+    font-size:20px;
+    text-transform: uppercase;
+ }
  .icones{
    height:140px;
    width:200px;
@@ -44,16 +54,23 @@
   position:absolute;
   top:270px;
   left:100px;
+  font-size:70px;
  }
  #paragraph_in_c2{
   position:absolute;
   top:340px;
   left:120px;
+  padding-top:20px;
+  font-size:30px;
  }
  #button_in_c2{
  position:absolute;
  top:440px;
- left:220px;
+ left:300px;
+ width:100px;
+ height:40px;
+ border-radius:30px;
+
  }
  .flex_container2{
     display:flex;
