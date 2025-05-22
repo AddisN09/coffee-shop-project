@@ -7,7 +7,10 @@
   font-weight: normal;
   font-style: normal;
 }
-
+a{
+  color:#dddddd;
+  text-decoration:none;
+}
 /* home page beagin here */
 body {
   background-color: white;
@@ -21,7 +24,7 @@ body {
 
 .home_head {
   background-color: #3a0519;
-  color: white;
+  color:#dddddd;
   border-radius: 30px;
 }
 
